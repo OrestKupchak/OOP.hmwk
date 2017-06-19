@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>People Management</title>
+  <link rel="stylesheet" href="peoplemanagement.css">
+</head>
+<body>
+  <div class="registration">
+    <h1>Add new User</h1>
+    <form class='form'>
+      <div class="name"
+      <label>Name:</label>
+        <input type="text" name="name" placeholder="Name"/>
+      </div>
+
+      <div class="sex">
+      <label >Sex:</label>
+        <input type="radio" name="sex" value="Male">Male
+        <input type="radio" name="sex" value="Female">Female
+        <input type="radio" name="sex" value="Other">Other
+      </div>
+      <div class="date">
+      <label>Date:</label>
+        <input type="text" name="birthDate" placeholder="Birth date 10/12/1993"/>
+      </div>
+      <div class="address>"
+      <label>Adress:</label>
+        <input type="text" name="adress" placeholder="adress">
+      </div>
+      <div class="phone"
+      <label>Phone:</label>
+        <input type="text" name="phone" placeholder="0971234567"/>
+      </div>
+      <div class="email">
+      <label>Email:</label>
+        <input type="email" name="email" placeholder="example@mail.com">
+      </div>
+      <div class="btn">
+      <input type="button" name="button" value="Save">
+    </div>
+    </form>
+
+    <table class="container">
+    	<thead>
+        <tr>
+          <th>Name</th>
+          <th>Sex</th>
+          <th>Birth date</th>
+          <th>Adress</th>
+          <th>Phone</th>
+          <th>Email</th>
+        </tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+    			<td>Google</td>
+    			<td>9518</td>
+    			<td>6369</td>
+    			<td>01:32:50</td>
+          <td>01:32:50</td>
+          <td>01:32:50</td>
+    		</tr>
+    	</tbody>
+    </table>
+
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/peoplemanagement.js"></script>
+  <script src="js/superUser.js"></script>
+  <script src="js/user.js"></script>
+</body>
+</html>
