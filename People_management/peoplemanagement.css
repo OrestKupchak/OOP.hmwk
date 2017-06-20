@@ -58,6 +58,16 @@ outline:none;
   justify-content: center;
 }
 
+.action-btns {
+  display: flex;
+  flex-direction: row;
+    justify-content: center;
+}
+
+.btn {
+  width: 100%;
+  margin-left: 10%;
+}
 /*-----------------------------------------Table styles----------------------------------------*/
 .container thead tr th {
 	  font-weight: bold;
