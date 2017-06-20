@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body {
   vertical-align: middle;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'roboto', sans-serif;
   font-weight: 300;
   line-height: 1.42em;
   color:#A7A1AE;
   background-color:#1F2739;
+
 }
 
 h1 {
@@ -15,36 +18,79 @@ h1 {
   color: #4DC3FA;
 }
 
+
 .form{
   color: #4DC3FA;
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 2%;
   background-color:#323C50;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   max-width: 50%;
-  font-size:2em;
+  font-size: 100%;
   border-radius: 15px;
+  margin-bottom: 3%;
 }
+
+/*-----------------------Radio buttons styles----------------------------*/
+.sex {
+    border: solid 3px #675f6b;
+    display: flex;
+    justify-content: space-around;
+    margin: 1%;
+    margin-left: 24%;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 49%;
+    font-size: 0.8em;
+    outline: none;
+}
+
+input[type=radio] {
+  position: absolute;
+  visibility: hidden;
+  display: none;
+}
+
+label {
+  color: #9a929e;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+input[type=radio]:checked + label {
+  color: #ccc8ce;
+  background: #675f6b;
+  margin: 0%;
+}
+
+
+
+/*-----------------------Radio buttons styles----------------------------*/
+
 
 input {
 width: 50%;
 border-radius: 10px;
 font-size: 0.8em;
 outline:none;
+padding: 1%;
 }
 
 input[type ='button'] {
-width: 20%;
-height: 50px;
-padding-top: 5px;
-margin-top: 20px;
-margin-bottom: 5%;
-color: #4DC3FA;
-background-color:#1F2739;
-outline:none;
+    min-width: 100%;
+    min-height: 20%;
+    margin-bottom: 5%;
+    color: #4DC3FA;
+    background-color: #1F2739;
+    font-size: 80%;
+    outline: none;
+    width: 5vw;
+    height: 3vw;
+    margin-right: 2vw;
 }
 
 .form > div {
@@ -52,23 +98,17 @@ outline:none;
   padding: 1%;
 }
 
-.sex {
+.action-btns {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.action-btns {
-  display: flex;
-  flex-direction: row;
-    justify-content: center;
-}
 
-.btn {
-  width: 100%;
-  margin-left: 10%;
-}
+
 /*-----------------------------------------Table styles----------------------------------------*/
+
+
 .container thead tr th {
 	  font-weight: bold;
 	  font-size: 1em;

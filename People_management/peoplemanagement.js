@@ -1,3 +1,9 @@
+function SuperUser() {
+SuperUser.prototype.changeDataVisibility = function() {
+  return this.isDataVisible = !this.isDataVisible;
+  }
+}
+
 function User(name, gender, date, adress, phone, email) { //create constructor for User instances
   this.name = name;
   this.gender = gender;
@@ -5,25 +11,15 @@ function User(name, gender, date, adress, phone, email) { //create constructor f
   this.adress = adress;
   this.phone = phone;
   this.email = email;
-
   this.isDataVisible = true;
 }
 
 User.prototype = SuperUser.prototype; //set inheritance of changeDataVisibility() method from SuperUser
 
-function SuperUser() {
-  this.changeDataVisibility = function() {
-    return this.isDataVisible = !this.isDataVisible;
-}
-}
 
-SuperUser.prototype.changeDataVisibility = function() {
-  return this.isDataVisible = !this.isDataVisible;
-}
-
-var listOfPersons = []; //array of newpersons
-var index = 0;
+var listOfPersons = []; //array of persons info
 var rows = $('tbody').children(); //amount of all rows in table
+
 
 //$('#button').click(
 function saveInfo() {         //save inputed info< after validation of data in each input
@@ -41,7 +37,6 @@ function resetInfo() { //reset all data in input fields after adding new Person
   $('.form')[0].reset()
 }
 
-
 function addNewUser() {
   var name = $('#name').val();
   var gender = $('.gender:checked').val();
@@ -54,17 +49,17 @@ function addNewUser() {
   return newPerson;
 }
 
+
 function renderNewPerson(newPerson) {
   $('tbody').append('<tr />');
-  $('tr:last').
-    append(`
-      <td>${newPerson.name}</td>
-      <td>${newPerson.gender}</td>
-      <td>${newPerson.date}</td>
-      <td>${newPerson.adress}</td>
-      <td>${newPerson.phone}</td>
-      <td>${newPerson.email}</td>
-    `);
+  $('tr:last')
+      .append(`<td>${newPerson.name}</td>`)
+      .append(`<td>${newPerson.gender}</td>`)
+      .append(`<td>${newPerson.date}</td>`)
+      .append(`<td>${newPerson.adress}</td>`)
+      .append(`<td>${newPerson.phone}</td>`)
+      .append(`<td>${newPerson.email}</td>`)
+    
 }
 
 
@@ -82,13 +77,15 @@ function visibility() {
   }
 }
 
+
+
 function checkNames() {
   var isValid = false;
   var name = $("#name").val();
   if (name.length < 2){
     alert('Name seems to be too short');
   }
-   if (name.length > 15) {
+   if (name.length > 25) {
     alert('Nmae seems to bee too long');
   } else if (name.match(/^[-\+]?\d+/)) {
     alert('Nope, no numbers allowed');
@@ -153,7 +150,7 @@ function checkAddress() {
 function checkPhone() {
   var isValid = true;
   var phone = $("#phone").val();
-  var pattern = /^[0-9]{10}$/;
+  var pattern = /^[0-9]{12}$/;
   if(phone.match(pattern) === null) {
     alert('Phone is not valid! Max 10 symbols');
     isValid = false;

@@ -9,34 +9,36 @@
 </head>
 <body>
   <div class="registration">
-    <h1>Add new User</h1>
+    <h1>ADD NEW USER</h1>
     <form class='form'>
-      <div class="name"
-      <label>Name:</label>
+      <div class="name">
+
         <input type="text" id="name" placeholder="Name"/>
       </div>
 
       <div class="sex">
-      <label >Sex:</label>
-        <input type="radio" class="gender" value="Male">Male
-        <input type="radio" class="gender" value="Female">Female
-        <input type="radio" class="gender" value="Other">Other
+        <input type="radio" class="gender" id="option-one" name="selector">
+        <label for="option-one">Male</label>
+        <input type="radio" class="gender" id="option-two" name="selector">
+        <label for="option-two">Female</label>
+        <input type="radio" class="gender" id="option-three" name="selector">
+        <label for="option-three">Other</label>
       </div>
       <div class="date">
-      <label>Date:</label>
-        <input type="text" id="birth" placeholder="Birth date"/>
+
+        <input type="text" id="birth" placeholder="Date of birth DD/MM/YYYY"/>
       </div>
-      <div class="address>"
-      <label>Adress:</label>
-        <input type="text" id="adress" placeholder="adress"/>
+      <div class="address">
+  
+        <input type="text" id="address" placeholder="Address"/>
       </div>
-      <div class="phone"
-      <label>Phone:</label>
-        <input type="text" id="phone" placeholder="3800000000"/>
+      <div class="phone">
+      
+        <input type="text" id="phone" placeholder="380ХХХХХХХХХ"/>
       </div>
       <div class="email">
-      <label>Email:</label>
-        <input type="email" id="email" placeholder="your.address@mail.com"/>
+
+        <input type="email" id="email" placeholder="your.email@mail.com"/>
       </div>
       <div class='action-btns'>
       <div class="btn">
@@ -61,12 +63,12 @@
     	</thead>
     	<tbody>
     		<tr>
-    			<td>Google</td>
-    			<td>9518</td>
-    			<td>6369</td>
-    			<td>01:32:50</td>
-          <td>01:32:50</td>
-          <td>01:32:50</td>
+    			<td>John Doe</td>
+    			<td>Male</td>
+    			<td>22/11/1963</td>
+    			<td>New York, Washington str.</td>
+          <td>380638887733/td>
+          <td>john.doe@cursor.com</td>
     		</tr>
     	</tbody>
     </table>
