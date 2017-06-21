@@ -6,7 +6,7 @@ function Supermarket() {
 			return 'Sorry, we don\'t sell' + item.name;
 		}
 		return 'You can find ' + item.name + 'on place ' + item.place;
-	} 
+	}
 
 	this.getWeight = function(name){
 		if (this.find) {
@@ -22,7 +22,8 @@ function Supermarket() {
 */
 
 
-function Item(price, weight, place) {
+function Item(name, price, weight, place) {
+	this.name =
 	this.price = price;
 	this.weight = weight;
 	this.place = place ;
@@ -34,41 +35,51 @@ function Item(price, weight, place) {
 
 	Item.prototype.getBill = function(){
 		return this.price
-	} 
+	}
+
+	function itemNames(){
+		var names = ['bottle', 'fish', 'vodka','steak', 'whisky', 'potato', 'strawberry',
+		 						 'banana', 'ice-cream', 'beer', 'bread', 'pineapple', 'spaghetti', 'olive',
+							   'tea', 'cheese', 'sauce', 'oysters', 'milk', 'cake', 'candies', 'coffee']
+		var name = names[Math.round(Math.random()*names.length)]
+		return name
+	}
 
 
 function storeDepartments(){
-	var places = ['grocery', 'seafood', 'alcohol','meat' ]
+	var places = ['grocery', 'seafood/meat', 'alcohol', 'fruits/vegetables', 'cheese/milk', 'bakery', 'sweets' ]
 	var place = places[Math.round(Math.random()*places.length)]
 	return place
 }
 
 function costs(){
-	  var price = Math.random()*100;
+	  var price = (Math.random()*100).toFixed(2);
     return price;
 }
 
 function scale(){
-	 var weight = Math.random()*15;
+	 var weight = (Math.random()*15).toFixed(2);
    return weight;
 }
 
-(function() {
+function generateList(){
+
+
+	var names = []
   var items = [];
   var prices = [];
   var weights = [];
   var totalSpend = 0;
   for (var i = 0; i < 15; i++) {
-    items.push(new Item(storeDepartments(), costs(), scale()));
-    console.log(items[i]);
-    prices.push(items[i].getBill());
-    weights.push(items[i].getWeight());
+    items.push(new Item(itemNames(), costs(), scale(), storeDepartments()));
+    console.log(items);
+    //prices.push(items[i].getBill());
+//weights.push(items[i].getWeight());
     totalSpend += items[i].getBill();
 }
-  console.log("Price of each item: " + prices);
-  console.log("Weight of each item: " + weights);
-  console.log("You spend : $" + totalSpend);
-	document.body.createElement('div')
-	document.querySelector('div').innerText = 
-
-})();
+	$('tbody').append('<tr />');
+	$('tr:last').append(`<td>${items[i].name}</td>`)
+  //console.log("Price of each item: " + prices);
+//  console.log("Weight of each item: " + weights);
+  //console.log("You spend : $" + totalSpend);
+}

@@ -1,0 +1,16 @@
+.market {
+  background-image: url('shop.jpg');
+  background-size:contain;
+  background-repeat: no-repeat;
+  width: inherit;
+    height: 900px;
+}
+
+.buyer  {
+  background-image: url(list.png);
+  width: 27%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 63%;
+  padding-left: 3%;
+}
