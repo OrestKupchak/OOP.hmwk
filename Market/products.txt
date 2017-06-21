@@ -1,0 +1,159 @@
+bread, white bread, whole wheat bread, rye bread, raisin bread, garlic bread, sourdough bread, French bread / French loaf, pita bread, tortilla;
+
+Rolls, buns
+
+roll, bread roll, sesame roll, poppy seed roll, cinnamon roll, hamburger bun, hot dog bun, crescent roll / croissant, bagel;
+
+Thin crispy breads
+
+cracker, biscuit, cookie, toast, breadstick, pretzel, hardtack / ship biscuit, wafer, waffle, crouton;
+
+Cakes
+
+cake, shortcake, fruitcake, strawberry shortcake, coffee cake, chocolate chip cake;
+
+blueberry muffin, raisin muffin, cupcake, brownie, oatmeal cookie, chocolate cookie, gingerbread;
+
+Cake
+
+cake, birthday cake, wedding cake, Christmas cake, chocolate cake, honey cake, cheesecake, layer cake, napoleon, sponge cake, torte;
+
+Pastry
+
+pastry, home-made pie, apple pie, blueberry pie, tart, mince pie, meat pie, knish, pizza, doughnut, English muffin, fritters, pancakes, waffles;
+
+Meat, poultry, fish
+
+Meat and meat products
+
+meat, beef, pork, veal, lamb, mutton;
+
+beef steak, roast beef, ground beef, hamburgers, cutlets, spare ribs, pork chops, lamb chops, veal cutlets;
+
+ham, bacon, pastrami, corned beef; sausage, salami, smoked sausage, Bologna; hot dogs, link sausages, frankfurters, wieners;
+
+Poultry
+
+poultry, chicken, turkey, goose, duck;
+
+whole chicken, chicken quarters, chicken leg, drumstick, chicken breast, turkey breast; eggs;
+
+Fish and fish products
+
+fish, salmon, trout, sturgeon, cod, sole, flatfish, pike, halibut, tuna, perch, sea bass, herring, eel, mackerel;
+
+fish steak, salmon steak, fish fillet, fillet of sole; smoked fish, salted fish, marinated herring, caviar;
+
+Seafood
+
+seafood, shrimp, prawns, crab, lobster, oysters, clams, shellfish, squid;
+
+Dairy products
+
+Milk and milk products
+
+milk, whole milk, skim milk, low-fat milk, nonfat milk, pasteurized milk, dry milk, condensed milk;
+
+yogurt, kefir, sour milk, buttermilk; cream, sour cream, butter;
+
+cottage cheese, farmers' cheese, home-made cheese, cream cheese;
+
+Cheese
+
+cheese, Swiss cheese, Parmesan, Cheddar, Mozzarella, Roquefort, blue cheese;
+
+hard cheese, soft cheese, sharp cheese, mild cheese, smoked cheese, grated cheese, cheese spread;
+
+Ice cream
+
+ice cream, sundae, vanilla ice cream, chocolate ice cream, ice cream cone;
+
+Fruit, berries, dried fruit, nuts
+
+Fruit
+
+fresh fruit, apple, pear, apricot, peach, nectarine, plum, grapes, cherry, sweet cherry; lemon, lime, orange, tangerine, grapefruit;
+
+banana, kiwi, olive, pineapple, papaya, mango, avocado, coconut, persimmon, pomegranate; melon, watermelon;
+
+Berries
+
+berries, strawberry, blueberry, cranberry, raspberry, black currants, red currants, gooseberry, blackberry, whortleberry;
+
+Dried fruit
+
+dried fruit, dried apricots, raisins, figs, prunes, dates, candied fruit;
+
+Nuts and seeds
+
+nuts, hazelnuts, walnuts, almonds, chestnuts, peanuts; pistachio nuts, cashew nuts, pecans, macadamia nuts; apricot pits, pumpkin seeds, sunflower seeds;
+
+Preserves
+
+raspberry jam, cranberry jam, grape jelly, honey, maple syrup, peanut butter;
+
+Vegetables, beans, herbs
+
+Vegetables
+
+fresh vegetables, salad vegetables, canned vegetables, leaf vegetables / greens;
+
+tomato, cucumber, onion, garlic, carrot, beets, potato, sweet pepper, paprika, hot pepper, chili pepper, green onions / spring onions, leek, mushrooms;
+
+cabbage, cauliflower, broccoli, Brussels sprouts, collards, artichoke, lettuce, spinach, celery, asparagus, cress, watercress;
+
+eggplant, aubergine, squash, gourd, zucchini, pumpkin, turnip, radish, horse radish;
+
+pickled cucumbers / pickles, marinated cucumbers, sauerkraut, canned olives;
+
+Peas, beans, corn
+
+green peas, sweet peas, string beans, lima beans, kidney beans, black beans, soybeans, corn, sweet corn;
+
+Herbs
+
+dill, parsley, basil, coriander, mint;
+
+Fruit juice, beverages, drinks
+
+apple juice, orange juice, grapefruit juice, lemon juice, tomato juice, fresh fruit juice, frozen fruit juice;
+
+tea, green tea, black tea, tea with milk, iced tea, herbal tea, mint tea, Indian tea;
+
+coffee, instant coffee, espresso, cappuccino, decaffeinated coffee / decaf, coffee with milk, coffee with cream, half-and-half, black coffee;
+
+cocoa, hot chocolate, milkshake;
+
+Water, soft drinks
+
+mineral water, spring water, soft drinks, soda water, lemonade, cider, ginger ale;
+
+Alcoholic drinks / liquor
+
+beer, wine, red wine, white wine, champagne; vodka, cognac, brandy, whisky, liqueur; cocktail, punch;
+
+Sauces, salad dressings, vegetable oils, fats
+
+tomato sauce, ketchup, mushroom sauce, meat sauce, steak sauce, gravy, spaghetti sauce, hot sauce, chili sauce, barbecue sauce, sweet-and-sour sauce, soy sauce, garlic sauce, white sauce, dip sauce, apple sauce, cranberry sauce;
+
+salad dressing, Russian dressing, Italian dressing, French dressing, blue-cheese dressing, mayonnaise;
+
+vegetable oil, olive oil, corn oil, sunflower seed oil, sesame oil;
+
+margarine, grease, lard, animal fat, vegetable fat;
+
+Seasoning and spices
+
+seasoning, spices, flavoring, condiment, relish;
+
+pepper, ground pepper, whole pepper, red pepper, hot pepper, chili pepper, salt, mustard, garlic;
+
+herbs, seeds, bay leaf, basil, cinnamon, cloves, coriander, dill, parsley, nutmeg, mint, caraway, thyme, cardamom, tarragon, lemon peel, oregano, marjoram, rosemary;
+
+Sweets, candy, chocolate
+
+candies, sweets, caramels, mint drops, jelly beans, lollipop, bonbons;
+
+chocolates, chocolate candies, chocolate, chocolate bar, candy bar;
+
+taffy / toffee, fudge, marshmallow.
