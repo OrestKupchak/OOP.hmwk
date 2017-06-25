@@ -14,11 +14,14 @@ function User(name, gender, date, adress, phone, email) { //create constructor f
 
 User.prototype = SuperUser.prototype; //set inheritance from SuperUser
 
+
 function saveInfo() { //save inputed info after validation of data in each input
     if (validation()) { //if valid we add new Person
         var newPerson = addNewUser()
+        persons.push(newPerson);
         renderNewPerson(newPerson);
         resetInfo();
+        all = $('tbody tr');
     }
 }
 
