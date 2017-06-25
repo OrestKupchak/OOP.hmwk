@@ -1,4 +1,4 @@
 # OOP.hmwk
-SuperMarket:  https://orestkupchak.github.io/OOP.hmwk/Market/market.html
+SuperMarket:  https://orestkupchak.github.io/OOP.hmwk/Market/
 
-PeopleManagement:  https://orestkupchak.github.io/OOP.hmwk/People_management/peoplemanagement.html
+PeopleManagement:  https://orestkupchak.github.io/OOP.hmwk/People_management/
