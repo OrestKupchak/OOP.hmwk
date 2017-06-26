@@ -7,12 +7,16 @@ function checkNames() {
         return;
     } else if (name.length < 2) {
         alert('Name seems to be too short');
+        return;
     } else if (name.length > 25) {
         alert('Nmae seems to bee too long');
+        return;
     } else if (name.match(/^[-\+]?\d+/)) {
         alert('Nope, no numbers allowed');
+        return;
     } else if (name.match(/^[A-z]+$/) != null) {
         alert('Nope, use only letters');
+        return;
     }
     checked = true
     return checked;
