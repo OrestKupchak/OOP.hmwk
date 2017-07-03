@@ -50,7 +50,7 @@ function itemNames() {
         ' candy bar', ' taffy', ' toffee', ' fudge', ' marshmallow'
     ]
 
-    var name = names[Math.round(Math.random() * names.length)]
+    var name = names[Math.round(Math.random() * (names.length-1))]
     return name
 }
 
@@ -61,7 +61,7 @@ function storeDepartments() {
         'poultry section', 'dairy section', 'produce department', 'frozen food section',
         'canned goods', 'deli section', 'confectionery'
     ]
-    var place = places[Math.round(Math.random() * places.length)]
+    var place = places[Math.round(Math.random() * (places.length-1))]
     return place
 }
 
